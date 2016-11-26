@@ -2,9 +2,6 @@
 title: Miranda Brooks Portfolio
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
   press:
     title: Press
     output: true

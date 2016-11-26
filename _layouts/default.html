@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  <div class="flex flex-column flex-row-l">
+    {% include navigation.html %}
+    {{ content }}
+    <div class="db dn-l pa4 mh4 measure-narrow">
+      {% include footer.html %}
+    </div>
+  </div>
+</body>
+
+</html>
