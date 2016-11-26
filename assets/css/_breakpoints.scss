@@ -1,0 +1,17 @@
+// large
+@media (min-width: 1500px) {
+
+  .mw-50-l { max-width: 50rem; }
+
+}
+
+
+// medium
+@media (min-width: 1100px) {
+
+  .w-grid-m { min-width: calc((100% / 3) - (6rem / 3)); }
+  .w-15-m { width: 15rem; }
+  .mw-60-m { max-width: 60rem; }
+  .block-m { display: block; }
+
+}
