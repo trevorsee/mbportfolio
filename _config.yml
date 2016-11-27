@@ -11,7 +11,7 @@ collections:
   seasons:
     title: Seasons
     output: true
-    permalink: "/:path"
+    permalink: "/:title"
   uploads:
     title: Uploads
     output: true
