@@ -1,17 +1,13 @@
-  <!--
-  <ul class="ma0 pa0">
-  {% for photo in season.slideshow %}
-    <li>
-      <img src="{{ photo.image }}" alt="{{ photo.title }}" />
-    </li>
-  {% endfor %}
-  </ul>
-  -->
-
-<header class="vh-100 bg-light-gray dt w-100">
-<div
-  style="background:url( {{ season.slideshow[2].image }} ) no-repeat center center;background-size: cover;"
-  class="dtc v-mid cover ph3 ph4-m ph5-l"
-  alt="{{ season.slideshow[2].title }}">
+<section class="w-100">
+  <div class="swiper-container vh-100 bg-light-gray w-100">
+  <div class="swiper-wrapper">
+    {% for photo in season.slideshow %}
+      <div
+      style="background:url( {{ photo.image }} ) no-repeat center center;background-size: cover;"
+      class="swiper-slide w-100 h-100"
+      alt="{{ photo.title }}">
+      </div>
+    {% endfor %}
+  </div>
 </div>
-</header>
+</section>

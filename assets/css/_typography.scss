@@ -1,26 +1,9 @@
 
 html {
-  font-family: 'Times', serif;
-  font-size: 20px;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 
-body {
-  line-height: 1.1;
+.mbgreen {
+  color: #1a624a;
 }
-
-.h0 { font-size: 0; }
-.h1 { font-size: 2rem; }
-.h2 { font-size: 1.5rem; }
-.h3 { font-size: 1rem; }
-.h4 { font-size: .75rem; }
-.h5 { font-size: .50rem; }
-
-.serif { font-family: 'Times', serif; }
-.sans-serif { font-family: 'Montserrat', sans-serif; }
-
-.smaller { font-size: .9em; }
-
-.fw-700 { font-weight: 700; }
-
-.underline { border-bottom: 1px solid #fff; }
