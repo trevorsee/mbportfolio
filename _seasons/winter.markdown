@@ -10,3 +10,4 @@ slideshow:
 - image: "/uploads/MB-Web-sk3_Page_05_Image_0001.jpg"
   hover-title: The third image
 ---
+
