@@ -1,6 +1,9 @@
 ---
-title: Vogue
+title: Vogue 2008
 date: 2016-12-07 23:32:00 Z
+cover-title: 'Vogue
+
+'
 cover-photo: "/uploads/MB-Web-sk3_Page_11_Image_0002.jpg"
 link: 
 ---
