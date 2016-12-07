@@ -4,10 +4,10 @@
       <img class="h3 h4-l" src="/assets/logo.svg" />
     </a>
     <div class="dn flex-l flex-column ph4">
-      <a href="/spring" class="dim link black ttu tracked pv1">Spring</a>
-      <a href="/summer" class="dim link black ttu tracked pv1">Summer</a>
-      <a href="/autumn" class="dim link black ttu tracked pv1">Autumn</a>
-      <a href="/winter" class="dim link black ttu tracked pv1">Winter</a>
+      {% assign ordered-nav = site.seasons | sort: "position" %}
+      {% for item in ordered-nav %}
+          <a href="{{item.url}}" class="dim link black ttu tracked pv1 {% if page.url == item.url %}mbgreen{% endif %}">{{item.title}}</a>
+      {% endfor %}
     </div>
     <div class="dn flex-l">
       {% include footer.html %}
