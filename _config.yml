@@ -7,7 +7,7 @@ collections:
     output: true
   press:
     title: Press
-    output: true
+    output: false
   seasons:
     title: Seasons
     output: true
