@@ -7,7 +7,8 @@ collections:
     output: true
   press:
     title: Press
-    output: true
+    output: false
+    bio-photo: "/uploads/MB-Web-sk3_Page_11_Image_0001.jpg"
   seasons:
     title: Seasons
     output: true
