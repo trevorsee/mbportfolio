@@ -28,6 +28,15 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: seasons
+  values:
+    slideshow:
+    - image: ''
+      hover-title: ''
+      horizontal: 50%
+      vertical: 50%
 navigation: true
 permalink: pretty
 sass:
