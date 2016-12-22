@@ -3,7 +3,7 @@
   <div class="swiper-wrapper">
     {% for photo in season.slideshow %}
       <div
-      style="background:url( {{ photo.image }} ) no-repeat center center;background-size: cover;"
+      style="background:url( {{ photo.image }} ) no-repeat {{photo.horizontal}} {{photo.vertical}};background-size: cover;"
       class="swiper-slide w-100 h-100"
       alt="{{ photo.title }}">
       </div>
