@@ -37,7 +37,7 @@ defaults:
       hover-title: ''
       horizontal: 50%
       vertical: 50%
-navigation: true
+navigation: false
 permalink: pretty
 sass:
   sass_dir: assets/css
