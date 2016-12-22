@@ -4,14 +4,15 @@
       <img class="h3 h4-l" src="/assets/logo.svg" />
     </a>
 
-<!-- seasons nav
+  {% if site.navigation %}
     <div class="dn flex-l flex-column ph4">
       {% assign ordered-nav = site.seasons | sort: "position" %}
-      {% for item in ordered-nav %}
+      {% assign final-nav = ordered-nav | where: "navigation","true" %}
+      {% for item in final-nav %}
           <a href="{{item.url}}" class="dim link black ttu tracked pv1 {% if page.url == item.url %}mbgreen{% endif %}">{{item.title}}</a>
       {% endfor %}
     </div>
--->
+  {% endif %}
 
     <div class="dn flex-l">
       {% include footer.html %}

@@ -1,6 +1,7 @@
 ---
 title: Miranda Brooks Portfolio
 timezone: UTC
+navigation: true
 collections:
   posts:
     title: Posts

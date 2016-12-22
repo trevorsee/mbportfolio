@@ -1,8 +1,9 @@
 ---
 title: Winter
 date: 2016-11-25 21:54:00 Z
-position: 3
+position: 5
 layout: default
+navigation: true
 slideshow:
 - image: "/uploads/MB-Web-sk3_Page_08_Image_0001.jpg"
   hover-title: The first image
