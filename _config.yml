@@ -28,6 +28,7 @@ defaults:
     type: pages
   values:
     layout: page
+navigation: true
 permalink: pretty
 sass:
   sass_dir: assets/css
