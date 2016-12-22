@@ -1,7 +1,6 @@
 ---
 title: Miranda Brooks Portfolio
 timezone: UTC
-navigation: true
 collections:
   posts:
     title: Posts
@@ -29,6 +28,7 @@ defaults:
     type: pages
   values:
     layout: page
+navigation: true
 permalink: pretty
 sass:
   sass_dir: assets/css
