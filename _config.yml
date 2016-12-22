@@ -33,10 +33,10 @@ defaults:
     type: seasons
   values:
     slideshow:
-      - image: ""
-        hover-title: ""
-        horizontal: 50%
-        vertical: 50%
+    - image: ''
+      hover-title: ''
+      horizontal: 50%
+      vertical: 50%
 navigation: true
 permalink: pretty
 sass:
