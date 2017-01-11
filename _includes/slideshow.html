@@ -2,7 +2,7 @@
   <div class="swiper-container vh-100 bg-light-gray w-100">
   <div class="swiper-wrapper">
     {% for photo in season.slideshow %}
-    {% assign sized-img = photo.image | replace: 'uploads', 'resize' %}
+    {% assign sized-img = photo.image | replace: 'uploads', 'resize' | remove: '.jpg' %}
     <!-- https://github.com/bfred-it/object-fit-images -->
       <img
       srcset="{{ sized-img }}_thumb.jpg 200w,
