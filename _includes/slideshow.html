@@ -2,11 +2,12 @@
   <div class="swiper-container vh-100 bg-light-gray w-100">
   <div class="swiper-wrapper">
     {% for photo in season.slideshow %}
-      <div
-      style="background:url( {{ photo.image }} ) no-repeat {{photo.horizontal}} {{photo.vertical}};background-size: cover;"
-      class="swiper-slide w-100 h-100"
+    <!--  ) no-repeat {{photo.horizontal}} {{photo.vertical}};background-size: cover; -->
+      <img
+      src="{{ photo.image }}"
+      class="swiper-slide w-100 h-100 obj-fit"
       alt="{{ photo.title }}">
-      </div>
+      </img>
     {% endfor %}
   </div>
 </div>
@@ -18,8 +19,8 @@ var swiper = new Swiper('.swiper-container', {
   pagination: '.swiper-pagination',
   paginationClickable: true,
   loop: true,
-  autoplay: 5000,
-  speed: 600,
+  autoplay: {{site.slider-rate}},
+  speed: {{site.slider-animation-speed}},
   autoplayDisableOnInteraction: false,
   grabCursor: true
   });

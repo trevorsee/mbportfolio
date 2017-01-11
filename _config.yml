@@ -41,3 +41,5 @@ navigation: true
 permalink: pretty
 sass:
   sass_dir: assets/css
+slider-rate: 5000
+slider-animation-speed: 600
