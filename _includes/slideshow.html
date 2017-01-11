@@ -3,8 +3,14 @@
   <div class="swiper-wrapper">
     {% for photo in season.slideshow %}
     <!--  ) no-repeat {{photo.horizontal}} {{photo.vertical}};background-size: cover; -->
+    {% assign sized-img = photo.image | replace: 'uploads', 'resize' %}
       <img
-      src="{{ photo.image }}"
+      srcset="{{ sized-img }}_thumb.jpg 200w,
+              {{ sized-img }}_small.jpg 800w,
+              {{ sized-img }}_medium.jpg 1500w,
+              {{ sized-img }}_large.jpg 2500w,
+              {{ sized-img }}_xlarge.jpg 4000w"
+      src="{{ sized-img }}_large.jpg"
       class="swiper-slide w-100 h-100 obj-fit"
       alt="{{ photo.title }}">
       </img>
