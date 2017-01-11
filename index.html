@@ -3,6 +3,6 @@ layout: default
 ---
 
 <section class="flex-auto">
-  {% assign season = default %}
-  {% include slideshow.html %}
+    {% assign season = site.seasons | where:'title', 'default' | first %}
+    {% include slideshow.html %}
 </section>
