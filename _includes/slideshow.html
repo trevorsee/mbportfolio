@@ -3,14 +3,13 @@
   <div class="swiper-wrapper">
     {% for photo in season.slideshow %}
     {% assign sized-img = photo.image | replace: 'uploads', 'resize' %}
-    <!-- https://github.com/bfred-it/object-fit-images
-    srcset="{{ sized-img }}_thumb.jpg 200w,
-            {{ sized-img }}_small.jpg 800w,
-            {{ sized-img }}_medium.jpg 1500w,
-            {{ sized-img }}_large.jpg 2500w,
-            {{ sized-img }}_xlarge.jpg 4000w" -->
+    <!-- https://github.com/bfred-it/object-fit-images -->
       <img
-
+      srcset="{{ sized-img }}_thumb.jpg 200w,
+              {{ sized-img }}_small.jpg 800w,
+              {{ sized-img }}_medium.jpg 1500w,
+              {{ sized-img }}_large.jpg 2500w,
+              {{ sized-img }}_xlarge.jpg 4000w"
       src="{{ photo.image }}"
       onerror="this.onerror=null;this.srcset='{{ photo.image }}';"
       class="swiper-slide w-100 h-100"
