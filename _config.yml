@@ -40,6 +40,6 @@ defaults:
 sass:
   sass_dir: assets/css
 permalink: pretty
-navigation: true
+navigation: false
 slider-rate: 5000
 slider-animation-speed: 600
