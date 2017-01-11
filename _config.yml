@@ -37,9 +37,9 @@ defaults:
       hover-title: ''
       horizontal: 50%
       vertical: 50%
-navigation: true
-permalink: pretty
 sass:
   sass_dir: assets/css
+permalink: pretty
+navigation: false
 slider-rate: 5000
 slider-animation-speed: 600
