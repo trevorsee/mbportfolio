@@ -2,18 +2,19 @@
   <div class="swiper-container vh-100 bg-light-gray w-100">
   <div class="swiper-wrapper">
     {% for photo in season.slideshow %}
-    <!--  ) no-repeat {{photo.horizontal}} {{photo.vertical}};background-size: cover; -->
     {% assign sized-img = photo.image | replace: 'uploads', 'resize' %}
-    <!--  -->
+    <!-- https://github.com/bfred-it/object-fit-images
+    srcset="{{ sized-img }}_thumb.jpg 200w,
+            {{ sized-img }}_small.jpg 800w,
+            {{ sized-img }}_medium.jpg 1500w,
+            {{ sized-img }}_large.jpg 2500w,
+            {{ sized-img }}_xlarge.jpg 4000w" -->
       <img
-      srcset="{{ sized-img }}_thumb.jpg 200w,
-              {{ sized-img }}_small.jpg 800w,
-              {{ sized-img }}_medium.jpg 1500w,
-              {{ sized-img }}_large.jpg 2500w,
-              {{ sized-img }}_xlarge.jpg 4000w"
+
       src="{{ photo.image }}"
       onerror="this.onerror=null;this.srcset='{{ photo.image }}';"
-      class="swiper-slide w-100 h-100 obj-fit"
+      class="swiper-slide w-100 h-100"
+      style=" object-fit: cover; object-position: {{ photo.horizontal }} {{ photo.vertical }}; font-family: 'object-fit: cover; object-position: {{ photo.horizontal }} {{ photo.vertical }};'"
       alt="{{ photo.title }}">
       </img>
     {% endfor %}
@@ -22,6 +23,7 @@
 </section>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+<script src="https://unpkg.com/object-fit-images@3.0.1/dist/ofi.min.js"></script>
 <script>
 var swiper = new Swiper('.swiper-container', {
   pagination: '.swiper-pagination',
@@ -32,4 +34,6 @@ var swiper = new Swiper('.swiper-container', {
   autoplayDisableOnInteraction: false,
   grabCursor: true
   });
+
+objectFitImages();
 </script>
