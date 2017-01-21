@@ -1,0 +1,30 @@
+<nav class="pa4 mh4-l measure-narrow flex-none border-box vh-100-l overflow-auto-l">
+  <div class="flex flex-column justify-between h-100">
+    <a href="/" class="dim">
+      <img class="h3 h4-l" src="/assets/logo.svg" />
+    </a>
+
+  {% if site.navigation %}
+    <div class="dn flex-l flex-column ph4">
+      {% assign ordered-nav = site.seasons | sort: "position" %}
+      {% assign final-nav = ordered-nav | where: "navigation","true" %}
+      {% for item in final-nav %}
+          <a href="{{item.url}}" class="dim link black ttu tracked pv1 {% if page.url == item.url %}mbgreen{% endif %}">{{item.title}}</a>
+      {% endfor %}
+    </div>
+    <!-- mobile nav -->
+    <select class="dn-l mt3 fr" onChange="window.location.replace(this.options[this.selectedIndex].value)">
+      <option value="" selected="selected">Choose a season:</option>
+      {% assign ordered-nav = site.seasons | sort: "position" %}
+      {% assign final-nav = ordered-nav | where: "navigation","true" %}
+      {% for item in final-nav %}
+        <option value="{{item.url}}">{{item.title}}</option>
+      {% endfor %}
+    </select>
+  {% endif %}
+
+    <div class="dn flex-l">
+      {% include footer.html %}
+    </div>
+  </div>
+</nav>
