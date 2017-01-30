@@ -6,4 +6,6 @@ cover-photo: "/uploads/17tmag-08well_stewart-t-01-superJumbo.jpg"
 link: "https://www.nytimes.com/interactive/2016/08/08/t-magazine/anna-wintour-garden-miranda-brooks.html"
 ---
 
-Anna Wintour's Wild Garden. A stroll through the editor’s romantic and meandering 40 acres — cultivated over the last 20 years by her friend, the landscape designer Miranda Brooks.
+August 2016
+
+“While romantic gestures abound, so too does simplicity: the glory of single plants, rather than a great jumble, and an appreciation for the color green.”
