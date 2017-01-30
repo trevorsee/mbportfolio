@@ -1,9 +1,9 @@
 ---
-title: T Magazine 2016  
+title: T Magazine 2016
 date: 2016-12-07 23:32:00 Z
 cover-title: T Magazine
 cover-photo: "/uploads/17tmag-08well_stewart-t-01-superJumbo.jpg"
-link: "https://www.nytimes.com/interactive/2016/08/08/t-magazine/anna-wintour-garden-miranda-brooks.html"
+link: https://www.nytimes.com/interactive/2016/08/08/t-magazine/anna-wintour-garden-miranda-brooks.html
 ---
 
 August 2016
