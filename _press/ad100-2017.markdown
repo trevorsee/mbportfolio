@@ -6,4 +6,6 @@ cover-photo: "/uploads/ad-january-2017-cover.jpg"
 link: "http://www.architecturaldigest.com/story/miranda-brooks-landscape-design-ad100"
 ---
 
+January 2017
+
 Miranda Brooks Landscape Design is included in the 2017 AD100.
