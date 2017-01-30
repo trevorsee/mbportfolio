@@ -9,5 +9,11 @@ html {
 }
 
 .measure-xs {
-  max-width: 12em;
+  max-width: 12rem;
+}
+
+@media screen and (min-width: 30em) {
+  .w45-ns {
+    width: 12em;
+  }
 }
