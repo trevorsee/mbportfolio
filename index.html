@@ -3,6 +3,13 @@ layout: default
 ---
 
 <section class="flex-auto">
+  <div class="dn db-l">
     {% assign season = site.seasons | where:'title', 'default' | first %}
     {% include slideshow.html %}
+  </div>
+  <!-- mobile slideshow -->
+  <div class="dn-l">
+    {% assign season = site.seasons | where:'title', 'mobile' | first %}
+    {% include slideshow.html %}
+  </div>
 </section>

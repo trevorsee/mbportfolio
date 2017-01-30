@@ -11,6 +11,7 @@
       {% for item in final-nav %}
           <a href="{{item.url}}" class="dim link black ttu tracked pv1 {% if page.url == item.url %}mbgreen{% endif %}">{{item.title}}</a>
       {% endfor %}
+      <a href="/press" class="dim link black ttu tracked pv1 mt4 {% if page.url == "/press/" %}mbgreen{% endif %}">press</a>
     </div>
     <!-- mobile nav -->
     <select class="dn-l mt3 fr" onChange="window.location.replace(this.options[this.selectedIndex].value)">
@@ -21,6 +22,11 @@
         <option value="{{item.url}}">{{item.title}}</option>
       {% endfor %}
     </select>
+    {% else %}
+    <div class="dn flex-l flex-column ph4">
+      <a href="/" class="dim link black ttu tracked pv1 mv1 {% if page.url == "/" %}mbgreen{% endif %}">images</a>
+      <a href="/press" class="dim link black ttu tracked pv1 mv1 {% if page.url == "/press/" %}mbgreen{% endif %}">press</a>
+    </div>
   {% endif %}
 
     <div class="dn flex-l">

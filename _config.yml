@@ -1,5 +1,5 @@
 ---
-title: MBLD
+title: Miranda Brooks Portfolio
 timezone: UTC
 collections:
   posts:
@@ -8,7 +8,7 @@ collections:
   press:
     title: Press
     output: false
-    bio-photo: "/uploads/MB-Web-sk3_Page_11_Image_0001.jpg"
+    bio-photo: "/uploads/Miranda-B-by-Ricardo-Labougle.jpg"
   seasons:
     title: Seasons
     output: true
