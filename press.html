@@ -14,9 +14,8 @@ layout: default
       <img src="{{ item.cover-photo }}" class="measure-xs self-start mr3"/>
       <div class="lh-copy f5">
         <h2 class="lh-title ttu tracked fw7">{{ item.cover-title }}</h2>
-        {{ item.link }}
         {{ item }}
-        <a src="{{ item.link }}" class="db ttu link underline black dim mt2">go to link</a>
+        <a href="{{ item.link }}" class="db ttu link underline black dim mt2">go to link</a>
       </div>
     </div>
   {% endfor %}
