@@ -3,11 +3,11 @@ title: default
 date: 2016-11-25 21:54:00 Z
 position: 6
 slideshow:
-- image: "/uploads/IMG_1075.JPG"
+- image: "/uploads/mb-winter4.jpg"
   hover-title: description of third image
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/IMG_1079.JPG"
+- image: "/uploads/mb-winter5.jpg"
   hover-title: description of third image
   horizontal: 50%
   vertical: 50%

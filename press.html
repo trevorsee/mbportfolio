@@ -2,18 +2,19 @@
 layout: default
 ---
 
-<section class="flex-auto bg-light-gray">
+<section class="flex-auto bg-light-gray min-vh-100">
 {% assign press = site.collections | where: "label", "press" | first %}
 <img src="{{press.bio-photo }}" class="w-100"/>
-<div class="ml4 ml6-l mv5 pv3">
+<!--<div class="ml4 ml6-l mv5 pv3">
   <a href="{{press.link}}" class="ttu link underline black dim">Download press PDF</a>
-</div>
-<div class="ml4 ml6-l mr4 flex flex-wrap">
+</div>-->
+<!-- temporary 'mt5'-->
+<div class="ml4 ml6-l mt5 mr4 flex flex-wrap">
   {% for item in site.press %}
     <div class="flex flex-column flex-row-ns measure mb5 mr5-l">
       <img src="{{ item.cover-photo }}" class="measure-xs self-start mr3"/>
       <div class="lh-copy f5">
-        <h2 class="lh-title ttu tracked fw7">{{ item.cover-title }}</h2>
+        <h2 class="lh-title ttu tracked fw7 mt3 mt0-ns">{{ item.cover-title }}</h2>
         {{ item }}
         <a href="{{ item.link }}" class="db ttu link underline black dim mt2">go to link</a>
       </div>

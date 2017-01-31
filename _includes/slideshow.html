@@ -5,11 +5,11 @@
     {% assign sized-img = photo.image | replace: 'uploads', 'resize' | remove: '.jpg' %}
     <!-- https://github.com/bfred-it/object-fit-images -->
       <img
-      srcset="{{ sized-img }}_thumb.jpg 200w,
-              {{ sized-img }}_small.jpg 800w,
-              {{ sized-img }}_medium.jpg 1500w,
-              {{ sized-img }}_large.jpg 2500w,
-              {{ sized-img }}_xlarge.jpg 4000w"
+      srcset="{{ site.imgurl }}/c_limit,h_300,w_200/{{ site.url }}{{ photo.image }} 200w,
+              {{ site.imgurl }}/c_limit,h_1000,w_800/{{ site.url }}{{ photo.image }} 800w,
+              {{ site.imgurl }}/c_limit,h_2000,w_1500/{{ site.url }}{{ photo.image }} 1500w,
+              {{ site.imgurl }}/c_limit,h_3500,w_2500/{{ site.url }}{{ photo.image }} 2500w,
+              {{ site.imgurl }}/c_limit,h_5500,w_4000/{{ site.url }}{{ photo.image }} 4000w"
       src="{{ photo.image }}"
       onerror="this.onerror=null;this.srcset='{{ photo.image }}';"
       class="swiper-slide w-100 h-100"
@@ -30,7 +30,7 @@ var swiper = new Swiper('.swiper-container', {
   loop: true,
   autoplay: {{site.slider-rate}},
   speed: {{site.slider-animation-speed}},
-  autoplayDisableOnInteraction: false,
+  autoplayDisableOnInteraction: true,
   grabCursor: true
   });
 
