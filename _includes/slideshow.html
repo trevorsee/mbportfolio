@@ -5,11 +5,11 @@
     {% assign sized-img = photo.image | replace: 'uploads', 'resize' | remove: '.jpg' %}
     <!-- https://github.com/bfred-it/object-fit-images -->
       <img
-      srcset="{{ site.imgurl }}/c_limit,h_300,w_200/{{ site.url }}{{ photo.image }} 200w,
-              {{ site.imgurl }}/c_limit,h_1000,w_800/{{ site.url }}{{ photo.image }} 800w,
-              {{ site.imgurl }}/c_limit,h_2000,w_1500/{{ site.url }}{{ photo.image }} 1500w,
-              {{ site.imgurl }}/c_limit,h_3500,w_2500/{{ site.url }}{{ photo.image }} 2500w,
-              {{ site.imgurl }}/c_limit,h_5500,w_4000/{{ site.url }}{{ photo.image }} 4000w"
+      srcset="{{ site.imgurl }}/c_limit,h_300,w_200/{{ site.tempurl }}{{ photo.image }} 200w,
+              {{ site.imgurl }}/c_limit,h_1000,w_800/{{ site.tempurl }}{{ photo.image }} 800w,
+              {{ site.imgurl }}/c_limit,h_2000,w_1500/{{ site.tempurl }}{{ photo.image }} 1500w,
+              {{ site.imgurl }}/c_limit,h_3500,w_2500/{{ site.tempurl }}{{ photo.image }} 2500w,
+              {{ site.imgurl }}/c_limit,h_5500,w_4000/{{ site.tempurl }}{{ photo.image }} 4000w"
       src="{{ photo.image }}"
       onerror="this.onerror=null;this.srcset='{{ photo.image }}';"
       class="swiper-slide w-100 h-100"
