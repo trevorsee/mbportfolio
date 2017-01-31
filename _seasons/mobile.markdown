@@ -3,15 +3,15 @@ title: mobile
 date: 2016-11-25 21:54:00 Z
 position: 7
 slideshow:
-- image: "/uploads/IMG_1062.JPG"
+- image: "/uploads/mb-winter1.jpg"
   hover-title: description of first image
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/IMG_1069.JPG"
+- image: "/uploads/mb-winter2.jpg"
   hover-title: description of second image
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/IMG_1073.JPG"
+- image: "/uploads/mb-winter3.jpg"
   hover-title: description of third image
   horizontal: 50%
   vertical: 50%
