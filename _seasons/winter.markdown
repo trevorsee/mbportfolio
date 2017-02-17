@@ -1,6 +1,7 @@
 ---
 title: Winter
 date: 2016-11-25 21:54:00 Z
+permalink: "/winter"
 position: 5
 slideshow:
 - image: "/uploads/1winter.jpg"
