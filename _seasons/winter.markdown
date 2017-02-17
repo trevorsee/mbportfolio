@@ -11,7 +11,7 @@ slideshow:
 - image: "/uploads/2winter.jpg"
   hover-title: 
   horizontal: 50%
-  vertical: 50%
+  vertical: 70%
 - image: "/uploads/3winter.jpg"
   hover-title: 
   horizontal: 50%
