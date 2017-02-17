@@ -1,33 +1,28 @@
-<nav class="pa4 mh4-l measure-narrow flex-none border-box vh-100-l overflow-auto-l">
+<nav class="w-100 pa4 mh4-l measure-narrow-l flex-none border-box vh-100-l overflow-auto-l">
   <div class="flex flex-column justify-between h-100">
-    <a href="/" class="dim">
+    <div href="/" class="dim fl">
       <img class="h3 h4-l" src="/assets/logo.svg" />
-    </a>
+    </div>
 
-  {% if site.navigation %}
     <div class="dn flex-l flex-column ph4">
       {% assign ordered-nav = site.seasons | sort: "position" %}
       {% assign final-nav = ordered-nav | where: "navigation","true" %}
       {% for item in final-nav %}
-          <a href="{{item.url}}" class="dim link black ttu tracked pv1 {% if page.url == item.url %}mbgreen{% endif %}">{{item.title}}</a>
+          <a href="{{item.url}}" class="{% if item.active %} black {% else %} moon-gray {% endif %} link dim ttu tracked pv1 {% if page.url == item.url %}mbgreen{% endif %}">{{item.title}}</a>
       {% endfor %}
       <a href="/press" class="dim link black ttu tracked pv1 mt4 {% if page.url == "/press/" %}mbgreen{% endif %}">press</a>
     </div>
     <!-- mobile nav -->
-    <select class="dn-l mt3 fr" onChange="window.location.replace(this.options[this.selectedIndex].value)">
-      <option value="" selected="selected">Choose a season:</option>
-      {% assign ordered-nav = site.seasons | sort: "position" %}
-      {% assign final-nav = ordered-nav | where: "navigation","true" %}
-      {% for item in final-nav %}
-        <option value="{{item.url}}">{{item.title}}</option>
-      {% endfor %}
-    </select>
-    {% else %}
-    <div class="dn flex-l flex-column ph4">
-      <a href="/" class="dim link black ttu tracked pv1 mv1 {% if page.url == "/" %}mbgreen{% endif %}">images</a>
-      <a href="/press" class="dim link black ttu tracked pv1 mv1 {% if page.url == "/press/" %}mbgreen{% endif %}">press</a>
-    </div>
-  {% endif %}
+      <select class="pa1 dn-l mt3 measure-narrow fr" onChange="window.location.replace(this.options[this.selectedIndex].value)">
+        <option value="" selected="selected">Go to page:</option>
+        {% assign ordered-nav = site.seasons | sort: "position" %}
+        {% assign final-nav = ordered-nav | where: "navigation","true" %}
+        {% for item in final-nav %}
+          <option value="{{item.url}}">{{item.title}}</option>
+        {% endfor %}
+          <option disabled="disabled">----</option>
+          <option value="/press">Press</option>
+      </select>
 
     <div class="dn flex-l">
       {% include footer.html %}

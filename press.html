@@ -4,7 +4,18 @@ layout: default
 
 <section class="flex-auto bg-light-gray min-vh-100">
 {% assign press = site.collections | where: "label", "press" | first %}
-<img src="{{press.bio-photo }}" class="w-100"/>
+  <img
+  srcset="{{ site.imgurl }}/c_limit,h_300,w_200/{{ site.tempurl }}{{ press.bio-photo }} 200w,
+          {{ site.imgurl }}/c_limit,h_1000,w_800/{{ site.tempurl }}{{ press.bio-photo }} 800w,
+          {{ site.imgurl }}/c_limit,h_2000,w_1500/{{ site.tempurl }}{{ press.bio-photo }} 1500w,
+          {{ site.imgurl }}/c_limit,h_3500,w_2500/{{ site.tempurl }}{{ press.bio-photo }} 2500w,
+          {{ site.imgurl }}/c_limit,h_5500,w_4000/{{ site.tempurl }}{{ press.bio-photo }} 4000w"
+  src="{{ press.bio-photo }}"
+  onerror="this.onerror=null;this.srcset='{{ press.bio-photo }}';"
+  class="w-100"
+  style=" object-fit: cover; object-position: 50% 50%; font-family: 'object-fit: cover; object-position: 50% 50%;'"
+  alt="">
+  </img>
 <!--<div class="ml4 ml6-l mv5 pv3">
   <a href="{{press.link}}" class="ttu link underline black dim">Download press PDF</a>
 </div>-->
@@ -12,7 +23,11 @@ layout: default
 <div class="ml4 ml6-l mt5 mr4 flex flex-wrap">
   {% for item in site.press %}
     <div class="flex flex-column flex-row-ns measure mb5 mr5-l">
-      <img src="{{ item.cover-photo }}" class="measure-xs self-start mr3"/>
+      <img class="measure-xs self-start mr3"
+           srcset="{{ site.imgurl }}/c_fill,dpr_1.0,w_180/{{ site.tempurl }}{{ item.cover-photo }} 1.0x,
+                   {{ site.imgurl }}/c_fill,dpr_2.0,w_180/{{ site.tempurl }}{{ item.cover-photo }} 2.0x"
+           src="{{ item.cover-photo }}">
+      </img>
       <div class="lh-copy f5">
         <h2 class="lh-title ttu tracked fw7 mt3 mt0-ns">{{ item.cover-title }}</h2>
         {{ item }}

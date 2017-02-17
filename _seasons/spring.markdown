@@ -4,20 +4,22 @@ date: 2016-11-25 21:54:00 Z
 position: 0
 slideshow:
 - image: "/uploads/DEC05.jpg"
-  hover-title: 
-  horizontal: 
-  vertical: 
+  hover-title:
+  horizontal:
+  vertical:
 - image: "/uploads/DEC04.jpg"
-  hover-title: 
+  hover-title:
   horizontal: 50%
   vertical: 50%
 - image: "/uploads/aDEC01.JPG"
-  hover-title: 
+  hover-title:
   horizontal: 50%
   vertical: 50%
 navigation: true
-layout: default
+layout: page
+active: false
 ---
 
-{% assign season = page %}
-{% include slideshow.html %}
+Stay Tuned!
+
+Images for Spring are coming soon.
