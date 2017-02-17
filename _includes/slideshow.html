@@ -2,7 +2,6 @@
   <div class="swiper-container vh-100 bg-light-gray w-100">
   <div class="swiper-wrapper">
     {% for photo in season.slideshow %}
-    {% assign sized-img = photo.image | replace: 'uploads', 'resize' | remove: '.jpg' %}
     <!-- https://github.com/bfred-it/object-fit-images -->
       <img
       srcset="{{ site.imgurl }}/c_limit,h_300,w_200/{{ site.tempurl }}{{ photo.image }} 200w,
@@ -14,8 +13,7 @@
       onerror="this.onerror=null;this.srcset='{{ photo.image }}';"
       class="swiper-slide w-100 h-100"
       style=" object-fit: cover; object-position: {{ photo.horizontal }} {{ photo.vertical }}; font-family: 'object-fit: cover; object-position: {{ photo.horizontal }} {{ photo.vertical }};'"
-      alt="{{ photo.title }}">
-      </img>
+      alt="{{ photo.title }}" />
     {% endfor %}
   </div>
 </div>
