@@ -8,7 +8,7 @@
       {% assign ordered-nav = site.seasons | sort: "position" %}
       {% assign final-nav = ordered-nav | where: "navigation","true" %}
       {% for item in final-nav %}
-          <a href="{{item.url}}" class="{% if item.active %} black {% else %} moon-gray {% endif %} link dim ttu tracked pv1 {% if page.url == item.url %}mbgreen{% endif %}">{{item.title}}</a>
+          <a href="{{item.url}}.html" class="{% if item.active %} black {% else %} moon-gray {% endif %} link dim ttu tracked pv1 {% if page.url == item.url %}mbgreen{% endif %}">{{item.title}}</a>
       {% endfor %}
       <a href="/press" class="dim link black ttu tracked pv1 mt4 {% if page.url == "/press/" %}mbgreen{% endif %}">press</a>
     </div>
@@ -18,7 +18,7 @@
         {% assign ordered-nav = site.seasons | sort: "position" %}
         {% assign final-nav = ordered-nav | where: "navigation","true" %}
         {% for item in final-nav %}
-          <option value="{{item.url}}">{{item.title}}</option>
+          <option value="{{item.url}}.html">{{item.title}}</option>
         {% endfor %}
           <option disabled="disabled">----</option>
           <option value="/press">Press</option>
