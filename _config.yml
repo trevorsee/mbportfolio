@@ -40,7 +40,7 @@ defaults:
 sass:
   sass_dir: assets/css
 permalink: pretty
-season: 
+season: Winter
 slider-rate: 5000
 slider-animation-speed: 600
 imgurl: https://res.cloudinary.com/miranda-brooks-landscape-design/image/fetch
