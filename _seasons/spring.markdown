@@ -3,23 +3,26 @@ title: Spring
 date: 2016-11-25 21:54:00 Z
 position: 0
 slideshow:
-- image: "/uploads/DEC05.jpg"
-  hover-title: 
-  horizontal: 
-  vertical: 
-- image: "/uploads/DEC04.jpg"
+- image: "/uploads/1.JPG"
   hover-title: 
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/aDEC01.JPG"
+- image: "/uploads/2.JPG"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/3.JPG"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/4.JPG"
   hover-title: 
   horizontal: 50%
   vertical: 50%
 navigation: true
+active: true
 layout: page
-active: false
 ---
 
-Stay Tuned!
-
-Images for Spring are coming soon.
+{% assign season = page %}
+{% include slideshow.html %}
