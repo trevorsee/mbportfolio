@@ -4,7 +4,7 @@ layout: default
 
 <section class="flex-auto">
   <div class="">
-    {% assign season = site.seasons | where:'title', 'Fall' | first %}
+    {% assign season = site.seasons | where:'title', {{site.season}} | first %}
     {% include slideshow.html %}
   </div>
 </section>
