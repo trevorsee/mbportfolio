@@ -23,10 +23,6 @@ slideshow:
   hover-title: 
   horizontal: 
   vertical: 
-- image: 
-  hover-title: 
-  horizontal: 
-  vertical: 
 active: true
 navigation: true
 Images:
