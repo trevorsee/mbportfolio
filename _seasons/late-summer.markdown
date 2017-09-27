@@ -5,8 +5,8 @@ position: 3
 slideshow:
 - image: "/uploads/1-02f570.jpg"
   hover-title: 
-  horizontal: 
-  vertical: 
+  horizontal: 50%
+  vertical: 50%
 - image: "/uploads/2-230dce.jpg"
   hover-title: 
   horizontal: 
@@ -27,7 +27,7 @@ slideshow:
   hover-title: 
   horizontal: 
   vertical: 
-active: false
+active: true
 navigation: true
 Images:
 - "/uploads/MB-Web-sk3_Page_08_Image_0001.jpg"
@@ -35,6 +35,5 @@ Images:
 layout: page
 ---
 
-Stay Tuned!
-
-Images for Late Summer are coming soon.
+{% assign season = page %}
+{% include slideshow.html %}
