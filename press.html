@@ -4,12 +4,13 @@ layout: default
 
 <section class="flex-auto bg-light-gray min-vh-100">
 {% assign press = site.collections | where: "label", "press" | first %}
+  {% assign cleanImage = press.bio-photo | remove: "uploads/" %}
   <img
-  srcset="{{ site.imgurl }}/c_limit,h_300,w_200/{{ site.tempurl }}{{ press.bio-photo }} 200w,
-          {{ site.imgurl }}/c_limit,h_1000,w_800/{{ site.tempurl }}{{ press.bio-photo }} 800w,
-          {{ site.imgurl }}/c_limit,h_2000,w_1500/{{ site.tempurl }}{{ press.bio-photo }} 1500w,
-          {{ site.imgurl }}/c_limit,h_3500,w_2500/{{ site.tempurl }}{{ press.bio-photo }} 2500w,
-          {{ site.imgurl }}/c_limit,h_5500,w_4000/{{ site.tempurl }}{{ press.bio-photo }} 4000w"
+  srcset="{{ site.imgurl }}{{ cleanImage }}?max-w=200&=max-h=300&q=70 200w,
+          {{ site.imgurl }}{{ cleanImage }}?max-w=800&=max-h=1000&q=70 800w,
+          {{ site.imgurl }}{{ cleanImage }}?max-w=1500&=max-h=2000&q=70 1500w,
+          {{ site.imgurl }}{{ cleanImage }}?max-w=2500&=max-h=3500&q=70 2500w,
+          {{ site.imgurl }}{{ cleanImage }}?max-w=4000&=max-h=5500&q=70 4000w"
   src="{{ press.bio-photo }}"
   onerror="this.onerror=null;this.srcset='{{ press.bio-photo }}';"
   class="w-100"
@@ -22,10 +23,11 @@ layout: default
 <!-- temporary 'mt5'-->
 <div class="ml4 ml6-l mt5 mr4 flex flex-wrap">
   {% for item in site.press %}
+    {% assign cleanImage = item.cover-photo | remove: "uploads/" %}
     <div class="flex flex-column flex-row-ns measure mb5 mr5-l">
       <img class="measure-xs self-start mr3"
-           srcset="{{ site.imgurl }}/c_fill,dpr_1.0,w_180/{{ site.tempurl }}{{ item.cover-photo }} 1.0x,
-                   {{ site.imgurl }}/c_fill,dpr_2.0,w_180/{{ site.tempurl }}{{ item.cover-photo }} 2.0x"
+           srcset="{{ site.imgurl }}{{ cleanImage }}?fit=crop&w=180&dpr=1&q=70 1.0x,
+                   {{ site.imgurl }}{{ cleanImage }}?fit=crop&w=180&dpr=2&q=70 2.0x"
            src="{{ item.cover-photo }}">
       </img>
       <div class="lh-copy f5">
