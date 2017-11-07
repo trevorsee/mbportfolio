@@ -25,12 +25,12 @@ slideshow:
   vertical: 
 - image: "/uploads/Druckenmiller004-92c1b4.JPG"
   hover-title: 
-  horizontal: 
-  vertical: 
+  horizontal: 50%
+  vertical: 50%
 - image: "/uploads/09%20September%20Southampton-6198aa.JPG"
   hover-title: 
-  horizontal: 
-  vertical: 
+  horizontal: 50%
+  vertical: 50%
 active: true
 navigation: true
 Images:
