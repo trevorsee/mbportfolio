@@ -1,7 +1,7 @@
 ---
 title: Late Summer
 date: 2016-11-25 21:54:00 Z
-position: 3
+position: 4
 slideshow:
 - image: "/uploads/1-02f570.jpg"
   hover-title: 
