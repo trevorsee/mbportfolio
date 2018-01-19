@@ -21,7 +21,7 @@ slideshow:
   vertical: 50%
 navigation: true
 active: true
-layout: default
+layout: page
 ---
 
 {% assign season = page %}
