@@ -1,6 +1,7 @@
 ---
 title: Spring
 date: 2016-11-25 21:54:00 Z
+permalink: "/spring"
 position: 1
 slideshow:
 - image: "/uploads/1.JPG"
@@ -21,7 +22,7 @@ slideshow:
   vertical: 50%
 navigation: true
 active: true
-layout: page
+layout: default
 ---
 
 {% assign season = page %}
