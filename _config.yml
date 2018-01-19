@@ -1,7 +1,5 @@
 ---
 title: Miranda Brooks Landscape Design
-description: Landscape Architect and American Vogue Contributing Editor
-author: Miranda Brooks
 timezone: UTC
 collections:
   posts:
@@ -39,6 +37,8 @@ defaults:
       hover-title: ''
       horizontal: 50%
       vertical: 50%
+description: Landscape Architect and American Vogue Contributing Editor
+author: Miranda Brooks
 season: Winter
 sass:
   sass_dir: assets/css
