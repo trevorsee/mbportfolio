@@ -3,6 +3,26 @@ title: Winter
 date: 2016-11-25 21:54:00 Z
 position: 0
 slideshow:
+- image: "/uploads/Antigua%201.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/Antigua%202.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/Antigua%203.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/Antigua%204.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/Antigua%205.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
 - image: "/uploads/1winter.jpg"
   hover-title: 
   horizontal: 50%
