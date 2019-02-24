@@ -3,6 +3,22 @@ title: Winter
 date: 2016-11-25 21:54:00 Z
 position: 0
 slideshow:
+- image: "/uploads/Romualdez_2018_0202-017.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/Romualdez_2018_0202-032.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/Romualdez_2018_0202-094.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/Romualdez_2018_0202-024.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
 - image: "/uploads/Antigua%201.jpg"
   hover-title: 
   horizontal: 50%
