@@ -19,26 +19,6 @@ slideshow:
   hover-title: 
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/Antigua%201.jpg"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
-- image: "/uploads/Antigua%202.jpg"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
-- image: "/uploads/Antigua%203.jpg"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
-- image: "/uploads/Antigua%204.jpg"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
-- image: "/uploads/Antigua%205.jpg"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
 - image: "/uploads/1winter.jpg"
   hover-title: 
   horizontal: 50%
@@ -52,10 +32,6 @@ slideshow:
   horizontal: 50%
   vertical: 50%
 - image: "/uploads/4winter.jpg"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
-- image: "/uploads/5winter.jpg"
   hover-title: 
   horizontal: 50%
   vertical: 50%
