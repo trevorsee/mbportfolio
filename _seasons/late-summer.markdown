@@ -1,6 +1,13 @@
 ---
 title: Late Summer
 date: 2016-11-25 21:54:00 Z
+tags:
+- mirandabrooks
+- landscape design
+- landscape
+- gardens
+- miranda brooks
+- francois harlard
 position: 0
 slideshow:
 - image: "/uploads/1-02f570.jpg"
