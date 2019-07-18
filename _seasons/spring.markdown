@@ -8,10 +8,6 @@ slideshow:
   hover-title: 
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/2.JPG"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
 - image: "/uploads/3.JPG"
   hover-title: 
   horizontal: 50%
