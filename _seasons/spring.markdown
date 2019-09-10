@@ -4,6 +4,10 @@ date: 2016-11-25 21:54:00 Z
 permalink: "/spring"
 position: 2
 slideshow:
+- image: "/uploads/4.JPG"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
 - image: "/uploads/1.JPG"
   hover-title: 
   horizontal: 50%
@@ -12,18 +16,6 @@ slideshow:
   hover-title: 
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/4.JPG"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
-- image: "/uploads/Carlton_2019_0705-10.jpg"
-  hover-title: 
-  horizontal: 40%
-  vertical: 40%
-- image: "/uploads/Carlton_2019_0705-24.jpg"
-  hover-title: 
-  horizontal: 40%
-  vertical: 40%
 navigation: true
 active: true
 layout: default
