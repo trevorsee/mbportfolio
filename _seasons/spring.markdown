@@ -1,6 +1,7 @@
 ---
 title: Spring
 date: 2016-11-25 21:54:00 Z
+permalink: "/spring"
 position: 2
 slideshow:
 - image: "/uploads/1.JPG"
@@ -17,11 +18,15 @@ slideshow:
   vertical: 50%
 - image: "/uploads/Carlton_2019_0705-10.jpg"
   hover-title: 
-  horizontal: 50%
-  vertical: 50%
+  horizontal: 60%
+  vertical: 60%
+- image: "/uploads/Carlton_2019_0705-24.jpg"
+  hover-title: 
+  horizontal: 60%
+  vertical: 60%
 navigation: true
 active: true
-layout: page
+layout: default
 ---
 
 {% assign season = page %}
