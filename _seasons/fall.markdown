@@ -8,12 +8,12 @@ tags:
 - gardens
 position: 0
 slideshow:
-- image: "/uploads/1%20Connecticut%20MB%204000px.jpg"
-  hover-title: Connecticut
-  horizontal: 50%
-  vertical: 50%
 - image: "/uploads/2%20Connecticut%20NMN%204000px.jpg"
   hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/1%20Connecticut%20MB%204000px.jpg"
+  hover-title: Connecticut
   horizontal: 50%
   vertical: 50%
 - image: "/uploads/5%20Connecticut%20MB%204000px.jpg"
