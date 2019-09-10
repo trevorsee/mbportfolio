@@ -32,14 +32,6 @@ slideshow:
   hover-title: 
   horizontal: 50%
   vertical: 70%
-- image: "/uploads/3winter.jpg"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
-- image: "/uploads/4winter.jpg"
-  hover-title: 
-  horizontal: 50%
-  vertical: 50%
 active: true
 navigation: true
 layout: page
