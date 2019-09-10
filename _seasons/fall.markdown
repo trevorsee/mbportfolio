@@ -1,7 +1,7 @@
 ---
 title: Fall
 date: 2016-11-25 21:54:00 Z
-position: 4
+position: 0
 slideshow:
 - image: "/uploads/1%20Connecticut%20MB%204000px.jpg"
   hover-title: Connecticut
