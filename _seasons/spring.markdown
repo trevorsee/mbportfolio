@@ -15,6 +15,10 @@ slideshow:
   hover-title: 
   horizontal: 50%
   vertical: 50%
+- image: "/uploads/Carlton_2019_0705-10.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
 navigation: true
 active: true
 layout: page
