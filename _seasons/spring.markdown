@@ -18,12 +18,12 @@ slideshow:
   vertical: 50%
 - image: "/uploads/Carlton_2019_0705-10.jpg"
   hover-title: 
-  horizontal: 60%
-  vertical: 60%
+  horizontal: 40%
+  vertical: 40%
 - image: "/uploads/Carlton_2019_0705-24.jpg"
   hover-title: 
-  horizontal: 60%
-  vertical: 60%
+  horizontal: 40%
+  vertical: 40%
 navigation: true
 active: true
 layout: default
