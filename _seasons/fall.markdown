@@ -12,7 +12,7 @@ slideshow:
   hover-title: 
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/1%20Connecticut%20MB%204000px.jpg"
+- image: "/uploads/Romualdez_NP_2017_0918_011.jpg"
   hover-title: Connecticut
   horizontal: 50%
   vertical: 50%
@@ -20,6 +20,30 @@ slideshow:
   hover-title: 
   horizontal: 50%
   vertical: 50%
+- image: "/uploads/Romualdez_NP_2017_0918_010.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/Romualdez_NP_2017_0919_148.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/Romualdez_NP_2017_0919_161.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/Romualdez_NP_2017_0918_060.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/Romualdez_NP_2017_0919_255.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/Romualdez_NP_2017_0918_027.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
 active: true
 navigation: true
 layout: page
