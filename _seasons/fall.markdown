@@ -6,7 +6,7 @@ tags:
 - landscape
 - design
 - gardens
-position: 0
+position: 1
 slideshow:
 - image: "/uploads/2%20Connecticut%20NMN%204000px.jpg"
   hover-title: 
