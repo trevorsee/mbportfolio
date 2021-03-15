@@ -4,6 +4,10 @@ date: 2016-11-25 21:54:00 Z
 permalink: "/spring"
 position: 1
 slideshow:
+- image: "/uploads/Mastic186.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
 - image: "/uploads/4.JPG"
   hover-title: 
   horizontal: 50%
