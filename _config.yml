@@ -2,6 +2,9 @@
 title: Miranda Brooks Landscape Design
 timezone: UTC
 collections:
+  jobs:
+    title: Jobs
+    output: true
   posts:
     title: Posts
     output: true
