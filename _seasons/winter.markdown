@@ -6,7 +6,7 @@ tags:
 - landscape
 - design
 - gardens
-position: 3
+position: 2
 slideshow:
 - image: "/uploads/Romualdez_2018_0202-017.jpg"
   hover-title: 
