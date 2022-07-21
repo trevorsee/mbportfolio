@@ -42,7 +42,7 @@ defaults:
       vertical: 50%
 description: Landscape Architect and American Vogue Contributing Editor
 author: Miranda Brooks
-season: Early Summer
+season: Late Summer
 sass:
   sass_dir: assets/css
 permalink: pretty
