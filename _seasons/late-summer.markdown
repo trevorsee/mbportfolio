@@ -8,7 +8,7 @@ tags:
 - gardens
 - miranda brooks
 - francois harlard
-position: 1
+position: 0
 slideshow:
 - image: "/uploads/1-02f570.jpg"
   hover-title: 

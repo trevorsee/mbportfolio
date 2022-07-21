@@ -6,7 +6,7 @@ tags:
 - landscape
 - design
 - gardens
-position: 2
+position: 1
 slideshow:
 - hover-title: 
   horizontal: 50%

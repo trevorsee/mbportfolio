@@ -6,7 +6,7 @@ tags:
 - landscape
 - design
 - gardens
-position: 3
+position: 2
 slideshow:
 - image: "/uploads/Antigua%205-d9c737.jpg"
   hover-title: 
