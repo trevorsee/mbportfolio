@@ -8,22 +8,6 @@ tags:
 - gardens
 position: 0
 slideshow:
-- image: "/uploads/Antigua%205-d9c737.jpg"
-  hover-title: 
-  horizontal: 
-  vertical: 
-- image: "/uploads/Antigua%201-df177d.jpg"
-  hover-title: 
-  horizontal: 
-  vertical: 
-- image: "/uploads/Antigua%204-b6c6c2.jpg"
-  hover-title: 
-  horizontal: 
-  vertical: 
-- image: "/uploads/Antigua%202-8a3081.jpg"
-  hover-title: 
-  horizontal: 
-  vertical: 
 - image: "/uploads/Romualdez_2018_0202-017.jpg"
   hover-title: 
   horizontal: 50%
@@ -49,6 +33,22 @@ slideshow:
   horizontal: 50%
   vertical: 70%
 - image: 
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/Antigua%205-d9c737.jpg"
+  hover-title: 
+  horizontal: 50%
+  vertical: 50%
+- image: "/uploads/Antigua%201-df177d.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/Antigua%204-b6c6c2.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/Antigua%202-8a3081.jpg"
   hover-title: 
   horizontal: 
   vertical: 
