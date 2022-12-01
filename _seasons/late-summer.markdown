@@ -8,7 +8,7 @@ tags:
 - gardens
 - miranda brooks
 - francois harlard
-position: 4
+position: 3
 slideshow:
 - image: "/uploads/Snow%20Farm004.jpg"
   hover-title: 
