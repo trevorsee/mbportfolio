@@ -3,4 +3,8 @@ title: ms71387500.txt
 date: 2023-07-20 15:34:00 Z
 ---
 
-[ms71387500.txt](/uploads/ms71387500.txt)
+{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "mirandabrooks.com",
+  "Id": "5b2648c0-4990-4470-8a2e-b3ab48a722ae"
+}
